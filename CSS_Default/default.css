@@ -1,0 +1,117 @@
+/* =================================
+   1. Box sizing
+================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* =================================
+   2. Remove default margin & padding
+================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* =================================
+   3. HTML & Body defaults
+================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* =================================
+   4. Remove list styles
+================================= */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* =================================
+   5. Anchor defaults
+================================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =================================
+   6. Media elements
+================================= */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* =================================
+   7. Form elements
+================================= */
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* =================================
+   8. Button & input fixes
+================================= */
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* =================================
+   9. Table
+================================= */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* =================================
+   10. Typography
+================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+/* =================================
+   11. Root stacking context
+================================= */
+
+#root,
+#__next {
+  isolation: isolate;
+}
